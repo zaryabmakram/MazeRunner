@@ -77,7 +77,7 @@ public class MazeRunner {
         } else if (moves==100) {
             System.out.println("Oh no! You took too long to escape, and now the maze exite is cloased FOREVER>:[");
         }
-        if (moves==100) {
+        if (moves>100) {
             System.out.println("Sorry, but you didn't escape in time- you lose!");
             playing = false;
         }
